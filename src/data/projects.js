@@ -61,8 +61,34 @@ export const projects = [
       imageUrl: "https://media.discordapp.net/attachments/1156242072655896649/1294362251196633098/steampunk.png?ex=670abc48&is=67096ac8&hm=ef908f17b3ae05e7b8de7bd6550514ffaa05728ae535945d1715a40f52df2670&=&format=webp&quality=lossless&width=350&height=350",
       imageScale: 1,
       thumbnails: [
-        { url: "https://mcmodels.net/_ipx/f_webp/https://api.mcmodels.net/storage/product-images/10529/BVbKwknKfUQGJ8IH.jpg" },
-        { url: "https://mcmodels.net/_ipx/f_webp/https://api.mcmodels.net/storage/product-images/10529/TB35USDBgUqJJCJR.png" },
+        {
+          "url": "https://i.ibb.co/zr5QVrq/1.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/kmky6cb/2.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/4FZwxJ2/3.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/Gd7Ffmm/4.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/S36p8WW/5.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/9sTPtTb/6.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/31tZYQ9/7.png",
+          "scale": 1
+        }
         // ... other thumbnails
       ],
     },

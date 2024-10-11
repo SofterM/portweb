@@ -1,46 +1,30 @@
 [
   {
-    "url": "https://i.ibb.co/PNnkSnj/image.jpg",
+    "url": "https://i.ibb.co/zr5QVrq/1.png",
     "scale": 1
   },
   {
-    "url": "https://i.ibb.co/C7FQ0tW/image.jpg",
+    "url": "https://i.ibb.co/kmky6cb/2.png",
     "scale": 1
   },
   {
-    "url": "https://i.ibb.co/G3ysdwn/image.jpg",
+    "url": "https://i.ibb.co/4FZwxJ2/3.png",
     "scale": 1
   },
   {
-    "url": "https://i.ibb.co/3rzYJ8F/image.jpg",
+    "url": "https://i.ibb.co/Gd7Ffmm/4.png",
     "scale": 1
   },
   {
-    "url": "https://i.ibb.co/bJ84sDx/image.jpg",
+    "url": "https://i.ibb.co/S36p8WW/5.png",
     "scale": 1
   },
   {
-    "url": "https://i.ibb.co/R6d9ykt/image.jpg",
+    "url": "https://i.ibb.co/9sTPtTb/6.png",
     "scale": 1
   },
   {
-    "url": "https://i.ibb.co/xqWnt7z/image.jpg",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/Q95H4gm/image.jpg",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/C2qR9cb/image.jpg",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/kJJnNqR/image.jpg",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/4gs51Wf/image.jpg",
+    "url": "https://i.ibb.co/31tZYQ9/7.png",
     "scale": 1
   }
 ]
