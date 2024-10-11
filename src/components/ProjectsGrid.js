@@ -61,6 +61,18 @@ const ProjectsGrid = ({ projects, handleImageClick }) => {
           ))}
         </div>
       </div>
+
+      {/* Footer Section */}
+      <footer className="bg-gray-800 text-white py-4 mt-8">
+        <div className="container mx-auto px-4 text-center">
+          <p>Connect with us on:</p>
+          <div className="flex justify-center space-x-4 mt-2">
+            <a href="https://discord.gg/YOUR_DISCORD_LINK" className="text-blue-400 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Discord</a>
+            <a href="https://www.mcmodel.com" className="text-blue-400 hover:text-blue-600" target="_blank" rel="noopener noreferrer">McModel</a>
+            <a href="https://www.facebook.com" className="text-blue-400 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </div>
+        </div>
+      </footer>
     </section>
   );
 };

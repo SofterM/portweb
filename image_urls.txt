@@ -1,42 +1,6 @@
 [
   {
-    "url": "https://i.ibb.co/SQM84j0/22.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/hBbmNbr/23.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/gyfy8Nq/24.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/QNnXtxb/25.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/VmT6cFf/26.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/VNjs8Rb/27.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/Y0KNxj2/28.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/t4ZdyBP/29.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/wp8QssJ/30.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/Gk0CMk7/31.png",
+    "url": "https://i.ibb.co/9ntCkW9/gizmojapan.png",
     "scale": 1
   }
 ]

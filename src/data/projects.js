@@ -65,7 +65,7 @@ export const projects = [
     },
     {
       title: "Streampunk Pixel art | Minecraft GUI",
-      description: "A vintage steampunk GUI with pixel art, featuring gears, pipes, and mechanical icons. Adds a retro-industrial look to your Minecraft experience. Minecraft experience.Minecraft experience.Minecraft experience.Minecraft experience.Minecraft experience.Minecraft experience.",
+      description: "Upgrade your Minecraft experience with a steampunk-themed GUI! Featuring gears, cogs, and vintage pixel art for a mechanical, industrial feel.",
       imageUrl: "https://media.discordapp.net/attachments/1156242072655896649/1294362251196633098/steampunk.png?ex=670abc48&is=67096ac8&hm=ef908f17b3ae05e7b8de7bd6550514ffaa05728ae535945d1715a40f52df2670&=&format=webp&quality=lossless&width=350&height=350",
       imageScale: 1,
       thumbnails: [
@@ -101,9 +101,9 @@ export const projects = [
       ],
     },
     {
-      title: "Streampunk Pixel art | Minecraft GUI",
-      description: "A vintage steampunk GUI with pixel art, featuring gears, pipesyour Minecraft experience.",
-      imageUrl: "https://i.ibb.co/wp8QssJ/22.png",
+      title: "Gameboy Pixel art | Minecraft GUI",
+      description: "Transform your Minecraft with this cute, purple Gameboy-style GUI! Featuring pastel pixel art and retro charm for a nostalgic gaming experience.",
+      imageUrl: "https://i.ibb.co/SQM84j0/22.png",
       imageScale: 1,
       thumbnails: [
         {
@@ -149,13 +149,15 @@ export const projects = [
       ],
     },
     {
-      title: "Streampunk Pixel art | Minecraft GUI",
-      description: "A vintage steampunk GUI with pixel art, featuring gears, pipes, and mechanical icons. Adds a retro-industrial look to your Minecraft experience.",
-      imageUrl: "https://mcmodels.net/_ipx/f_webp/https://api.mcmodels.net/storage/product-images/9675/01J0X78MZ9WJD4XS9M0Q7VSEYZ.webp",
+      title: "Welcome Japanese Theme | Minecraft GUI",
+      description: "Welcome to the Gizmo Japanese-themed Minecraft GUI! Featuring traditional patterns, soft colors, and charming icons inspired by Japanese culture to enhance your gaming experience..",
+      imageUrl: "https://i.ibb.co/9ntCkW9/gizmojapan.png",
       imageScale: 1,
       thumbnails: [
-        { url: "https://mcmodels.net/_ipx/f_webp/https://api.mcmodels.net/storage/product-images/10529/BVbKwknKfUQGJ8IH.jpg" },
-        { url: "https://mcmodels.net/_ipx/f_webp/https://api.mcmodels.net/storage/product-images/10529/TB35USDBgUqJJCJR.png" },
+        {
+          "url": "https://i.ibb.co/9ntCkW9/gizmojapan.png",
+          "scale": 1
+        }
         // ... other thumbnails
       ],
     },
