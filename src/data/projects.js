@@ -2,53 +2,61 @@ export const projects = [
     {
       title: "SCI-FI Pixel art | Minecraft GUI",
       description: "A futuristic GUI with neon pixel art, designed for a sleek, high-tech feel. Features unique sci-fi icons and a modern look, perfect for enhancing your Minecraft experience.",
-      imageUrl: "https://media.discordapp.net/attachments/1156242072655896649/1294359281365291099/CYBER_PIXEL.png?ex=670ab984&is=67096804&hm=6a17a683938372c04e9f1c860455b3ab28d1c410e4decc8d0e883418d7a6365a&=&format=webp&quality=lossless&width=671&height=671",
+      imageUrl: "https://i.ibb.co/8zY9pnC/18.png",
       imageScale: 1,
       thumbnails: [
         {
-    "url": "https://i.ibb.co/6FV034y/Actionhouse.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/FJqMh4N/bank.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/hLHFvsk/dailyrewards.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/MCxPGpb/empty.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/Jt2WzSp/empty2.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/zPbWKW0/empty3.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/LkwryB9/empty4.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/r6S5tgT/pets.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/BttDK9v/repair.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/3dDyCBn/shop.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/VHrmYtR/Slelectquantity.png",
-    "scale": 1
-  }
+          "url": "https://i.ibb.co/wwns6JZ/10.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/wRTCKBH/11.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/4mmTh4f/12.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/6ZsScp0/13.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/RgYMc6t/14.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/vhKG9Xg/15.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/gMdRGH3/16.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/NngRDCV/17.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/8zY9pnC/18.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/d07Y3Hm/19.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/hy9QtnT/20.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/gjwYzkn/21.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/7VS604x/9.png",
+          "scale": 1
+        }
     
         
         
@@ -95,12 +103,49 @@ export const projects = [
     {
       title: "Streampunk Pixel art | Minecraft GUI",
       description: "A vintage steampunk GUI with pixel art, featuring gears, pipesyour Minecraft experience.",
-      imageUrl: "https://mcmodels.net/_ipx/f_webp/https://api.mcmodels.net/storage/product-images/9675/01J0X78MZ9WJD4XS9M0Q7VSEYZ.webp",
+      imageUrl: "https://i.ibb.co/wp8QssJ/22.png",
       imageScale: 1,
       thumbnails: [
-        { url: "https://mcmodels.net/_ipx/f_webp/https://api.mcmodels.net/storage/product-images/10529/BVbKwknKfUQGJ8IH.jpg" },
-        { url: "https://mcmodels.net/_ipx/f_webp/https://api.mcmodels.net/storage/product-images/10529/TB35USDBgUqJJCJR.png" },
-        // ... other thumbnails
+        {
+          "url": "https://i.ibb.co/SQM84j0/22.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/hBbmNbr/23.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/gyfy8Nq/24.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/QNnXtxb/25.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/VmT6cFf/26.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/VNjs8Rb/27.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/Y0KNxj2/28.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/t4ZdyBP/29.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/wp8QssJ/30.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/Gk0CMk7/31.png",
+          "scale": 1
+        }
       ],
     },
     {
@@ -125,5 +170,19 @@ export const projects = [
         // ... other thumbnails
       ],
     },
+    {
+      title: "Katana",
+      description: "A beautifully crafted katana model.",
+      imageUrl: "https://i.ibb.co/wwns6JZ/10.png", // Placeholder image
+      imageScale: 1,
+      sketchfabUrl: "https://sketchfab.com/models/4fd55af309414f2ea63f3f8cc9cdd11f/embed", // Add this line
+      thumbnails: [
+          {
+              "url": "https://i.ibb.co/wwns6JZ/10.png",
+              "scale": 1
+          },
+          // ... other thumbnails
+      ],
+  },
     // ... other projects
   ];
