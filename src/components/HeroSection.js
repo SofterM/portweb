@@ -4,7 +4,7 @@ const HeroSection = ({ profileImageUrl }) => (
   <div className="relative mx-auto max-w-full h-[500px] bg-gradient-to-r from-gray-800 to-gray-900 overflow-hidden" style={{ padding: '10px 10px' }}> {/* Full width with 10px padding */}
     {/* Main image */}
     <img
-      src="https://media.discordapp.net/attachments/1156242072655896649/1293836487657525248/minecraft_title.png?ex=6708d2a0&is=67078120&hm=a29b6e80310645ac236d5a97db084034f490ca9a2cf7f9ebd06037267e87394f&=&format=webp&quality=lossless&width=1200&height=500"
+      src="https://media.discordapp.net/attachments/1156242072655896649/1294359147739086859/minecraft_title.png?ex=670ab964&is=670967e4&hm=37a6d6ed7f82127ab6c79fcf2645978482e982cc2d898b028770a07bfae876c6&=&format=webp&quality=lossless&width=1440&height=581"
       alt="Minecraft landscape"
       className="absolute inset-0 w-full h-full object-cover" // Ensures full coverage
     />

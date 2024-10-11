@@ -41,7 +41,6 @@ function App() {
       setSlideshowInterval(null);
     }
   };
-
   useEffect(() => {
     return () => {
       document.body.style.overflow = '';
