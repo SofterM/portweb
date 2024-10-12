@@ -48,32 +48,48 @@ const ProjectCard = ({ project, handleImageClick }) => {
 
 const ProjectsGrid = ({ projects, handleImageClick }) => {
   return (
-    <section className="py-8 sm:py-12 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-white mb-8 sm:mb-12">My Work</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 auto-rows-auto">
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={index}
-              project={project}
-              handleImageClick={handleImageClick}
-            />
-          ))}
+    <div className="flex flex-col min-h-screen">
+      <main className="flex-grow py-8 sm:py-12 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-center text-white mb-8 sm:mb-12">My Work</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 auto-rows-auto">
+            {projects.map((project, index) => (
+              <ProjectCard
+                key={index}
+                project={project}
+                handleImageClick={handleImageClick}
+              />
+            ))}
+          </div>
         </div>
-      </div>
+      </main>
 
-      {/* Footer Section */}
-      <footer className="bg-gray-800 text-white py-4 mt-8">
-        <div className="container mx-auto px-4 text-center">
-          <p>Connect with us on:</p>
-          <div className="flex justify-center space-x-4 mt-2">
-            <a href="https://discord.gg/YOUR_DISCORD_LINK" className="text-blue-400 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Discord</a>
-            <a href="https://www.mcmodel.com" className="text-blue-400 hover:text-blue-600" target="_blank" rel="noopener noreferrer">McModel</a>
-            <a href="https://www.facebook.com" className="text-blue-400 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Facebook</a>
+      {/* Sticky Footer */}
+      <footer className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white py-6">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="mb-4 md:mb-0">
+              <h3 className="text-xl font-bold">Connect with us</h3>
+              <p className="text-sm text-gray-400 mt-1">Join our community for updates and more!</p>
+            </div>
+            <div className="flex space-x-4">
+              <a href="https://discord.gg/QSxYZtv99X" className="footer-link text-sm" target="_blank" rel="noopener noreferrer">
+                Discord
+              </a>
+              <a href="https://mcmodels.net" className="footer-link text-sm" target="_blank" rel="noopener noreferrer">
+                McModel
+              </a>
+              <a href="https://www.facebook.com/pratarokub" className="footer-link text-sm" target="_blank" rel="noopener noreferrer">
+                Facebook
+              </a>
+            </div>
+          </div>
+          <div className="mt-4 pt-4 border-t border-gray-700 text-center text-xs text-gray-400">
+            &copy; 2024 PAPER BAG All rights reserved.
           </div>
         </div>
       </footer>
-    </section>
+    </div>
   );
 };
 

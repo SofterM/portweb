@@ -1,6 +1,10 @@
 [
   {
-    "url": "https://i.ibb.co/9ntCkW9/gizmojapan.png",
+    "url": "https://i.ibb.co/Mkvc7RY/gizmocupid.png",
+    "scale": 1
+  },
+  {
+    "url": "https://i.ibb.co/KKmP9Sw/gizmojapan.png",
     "scale": 1
   }
 ]
