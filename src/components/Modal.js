@@ -54,13 +54,13 @@ const Modal = ({
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-60 flex justify-center items-center z-50 p-4 backdrop-blur-sm" onClick={closeModal}>
+    <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50 p-4 backdrop-blur-sm" onClick={closeModal}>
       <div 
-        className="relative flex flex-col bg-white/90 dark:bg-gray-900/90 rounded-xl w-full max-w-7xl max-h-[95vh] overflow-y-auto shadow-2xl border border-gray-200 dark:border-gray-700 transition-all duration-300 ease-in-out transform hover:scale-[1.02] scrollbar-hide" 
+        className="relative flex flex-col bg-gray-900 rounded-xl w-full max-w-7xl max-h-[95vh] overflow-y-auto shadow-2xl border border-gray-700 transition-all duration-300 ease-in-out transform hover:scale-[1.02] scrollbar-hide" 
         onClick={(e) => e.stopPropagation()}
       >
         <div className="p-6 sm:p-8">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 dark:text-white mb-6">{selectedProject.title}</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-center text-white mb-6">{selectedProject.title}</h2>
           <div className="flex justify-center items-center mb-6 h-[35vh] sm:h-[45vh] md:h-[55vh]">
             <img
               src={selectedImage}
@@ -71,7 +71,7 @@ const Modal = ({
           </div>
 
           <div className="mt-6">
-            <h3 className="text-center font-bold mb-4 text-base sm:text-lg text-gray-800 dark:text-gray-200">Album Photos</h3>
+            <h3 className="text-center font-bold mb-4 text-base sm:text-lg text-gray-200">Album Photos</h3>
             <div 
               ref={thumbnailContainerRef} 
               className="flex overflow-x-auto scrollbar-hide space-x-2 cursor-grab" 
@@ -92,7 +92,7 @@ const Modal = ({
         </div>
 
         <button
-          className="fixed top-4 right-4 bg-gray-800 dark:bg-gray-200 hover:bg-red-600 dark:hover:bg-red-600 w-10 h-10 rounded-full flex items-center justify-center text-white dark:text-gray-800 hover:text-white transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl group"
+          className="fixed top-4 right-4 bg-gray-800 hover:bg-red-600 w-10 h-10 rounded-full flex items-center justify-center text-white hover:text-white transition-all duration-300 ease-in-out shadow-lg hover:shadow-xl group"
           onClick={closeModal}
           aria-label="Close modal"
         >
