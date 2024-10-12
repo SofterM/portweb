@@ -149,6 +149,50 @@ export const projects = [
       ],
     },
     {
+      title: "Folder Pixel art | Minecraft GUI",
+      description: "Organize your Minecraft world with this Folder Pixel Art GUI! Featuring charming pixelated folder icons for a clean and retro-inspired look.",
+      imageUrl: "https://i.ibb.co/XY15g8y/40.png",
+      imageScale: 1,
+      thumbnails: [
+        {
+          "url": "https://i.ibb.co/XY15g8y/40.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/FbKBzFf/41.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/LZ47NX9/42.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/4SbFk0N/43.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/JzwfpDp/44.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/TPhFbfs/45.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/Pw88Zsv/46.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/CmnPWd4/47.png",
+          "scale": 1
+        },
+        {
+          "url": "https://i.ibb.co/CPFhQpw/48.png",
+          "scale": 1
+        }
+      ],
+    },
+    {
       title: "Welcome Japanese Theme | Minecraft GUI",
       description: "Welcome to the Gizmo Japanese-themed Minecraft GUI! Featuring traditional patterns, soft colors, and charming icons inspired by Japanese culture to enhance your gaming experience..",
       imageUrl: "https://i.ibb.co/9ntCkW9/gizmojapan.png",
@@ -163,6 +207,18 @@ export const projects = [
           "scale": 1
         }
         // ... other thumbnails
+      ],
+    },
+    {
+      title: "Rank Pixel art | Minecraft Icon",
+      description: "Show off your status with Rank Pixel Art Icons for Minecraft! Featuring bold, pixelated rank symbols to give your game a retro, yet distinct look.",
+      imageUrl: "https://i.ibb.co/bbY9Nnn/39.png",
+      imageScale: 1,
+      thumbnails: [
+        {
+          "url": "https://i.ibb.co/bbY9Nnn/39.png",
+          "scale": 1
+        }
       ],
     },
     {
