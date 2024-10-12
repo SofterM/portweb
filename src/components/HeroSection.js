@@ -4,7 +4,7 @@ const HeroSection = ({ profileImageUrl }) => (
   <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] bg-gradient-to-r from-gray-800 to-gray-900 overflow-hidden px-4 sm:px-6 md:px-8">
     {/* Main image */}
     <img
-      src="https://media.discordapp.net/attachments/1156242072655896649/1294359147739086859/minecraft_title.png?ex=670ab964&is=670967e4&hm=37a6d6ed7f82127ab6c79fcf2645978482e982cc2d898b028770a07bfae876c6&=&format=webp&quality=lossless&width=1440&height=581"
+      src="https://i.ibb.co/ZNwthQr/minecraft-title.png"
       alt="Minecraft landscape"
       className="absolute inset-0 w-full h-full object-cover object-center"
     />

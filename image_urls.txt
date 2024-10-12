@@ -1,42 +1,10 @@
 [
   {
-    "url": "https://i.ibb.co/bbY9Nnn/39.png",
+    "url": "https://i.ibb.co/Z68kpmS/logo.png",
     "scale": 1
   },
   {
-    "url": "https://i.ibb.co/XY15g8y/40.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/FbKBzFf/41.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/LZ47NX9/42.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/4SbFk0N/43.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/JzwfpDp/44.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/TPhFbfs/45.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/Pw88Zsv/46.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/CmnPWd4/47.png",
-    "scale": 1
-  },
-  {
-    "url": "https://i.ibb.co/CPFhQpw/48.png",
+    "url": "https://i.ibb.co/ZNwthQr/minecraft-title.png",
     "scale": 1
   }
 ]

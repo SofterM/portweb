@@ -1,4 +1,81 @@
 export const projects = [
+  {
+    title: "KATANA PACK | Minecraft Model",
+    description: "Equip your Minecraft world with the Katana Pack! Featuring sleek, detailed katana models to bring a touch of Japanese warrior spirit into your game. Perfect for customizing your weapons in style.",
+    imageUrl: "https://i.ibb.co/NjN54Bb/katana.png",
+    imageScale: 1,
+    thumbnails: [
+      {
+        "url": "https://i.ibb.co/NjN54Bb/katana.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/8NLZ2FX/2024-10-13-00-47-31.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/b1qBf5w/2024-10-13-02-07-08.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/LYKQy5K/2024-10-13-00-58-58.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/SyZCxyL/2024-10-13-00-59-01.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/Tvv8KH1/2024-10-13-00-59-03.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/9ywTnCX/2024-10-13-00-59-04.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/1T5btdC/2024-10-13-00-59-05.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/x10m3wP/2024-10-13-00-59-06.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/0j2WdTK/2024-10-13-00-59-07.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/516h0cn/2024-10-13-00-59-33.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/dbmDPwh/2024-10-13-00-59-39.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/xLbzk5s/2024-10-13-00-59-51.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/N3Srv4v/2024-10-13-00-59-56.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/6rrN8Vg/2024-10-13-01-00-00.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/PjC95cb/2024-10-13-01-00-03.png",
+        "scale": 1
+      },
+      {
+        "url": "https://i.ibb.co/dj20hDq/2024-10-13-01-00-08.png",
+        "scale": 1
+      },
+      
+    ],
+  },
     {
       title: "SCI-FI Pixel art | Minecraft GUI",
       description: "A futuristic GUI with neon pixel art, designed for a sleek, high-tech feel. Features unique sci-fi icons and a modern look, perfect for enhancing your Minecraft experience.",
@@ -66,7 +143,7 @@ export const projects = [
     {
       title: "Streampunk Pixel art | Minecraft GUI",
       description: "Upgrade your Minecraft experience with a steampunk-themed GUI! Featuring gears, cogs, and vintage pixel art for a mechanical, industrial feel.",
-      imageUrl: "https://media.discordapp.net/attachments/1156242072655896649/1294362251196633098/steampunk.png?ex=670abc48&is=67096ac8&hm=ef908f17b3ae05e7b8de7bd6550514ffaa05728ae535945d1715a40f52df2670&=&format=webp&quality=lossless&width=350&height=350",
+      imageUrl: "https://i.ibb.co/SK4b3Mc/steampunk.png",
       imageScale: 1,
       thumbnails: [
         {
@@ -217,6 +294,18 @@ export const projects = [
       thumbnails: [
         {
           "url": "https://i.ibb.co/bbY9Nnn/39.png",
+          "scale": 1
+        }
+      ],
+    },
+    {
+      title: "Rank Pixel art | Minecraft Icon",
+      description: "Show off your status with Rank Pixel Art Icons for Minecraft! Featuring bold, pixelated rank symbols to give your game a retro, yet distinct look.",
+      imageUrl: "https://i.ibb.co/qBzRQCC/rank2.png",
+      imageScale: 1,
+      thumbnails: [
+        {
+          "url": "https://i.ibb.co/qBzRQCC/rank2.png",
           "scale": 1
         }
       ],

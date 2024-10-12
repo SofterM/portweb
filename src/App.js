@@ -53,7 +53,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
       <Header />
-      <HeroSection profileImageUrl="https://media.discordapp.net/attachments/825220285242146847/1294354384381280406/logo.png?ex=670ab4f5&is=67096375&hm=b796b2c8966b5f052dd50623add4f38db18da6c1aec8428e85c6f7d5a8d97a69&=&format=webp&quality=lossless" /> {/* Update the URL */}
+      <HeroSection profileImageUrl="https://i.ibb.co/Z68kpmS/logo.png" /> {/* Update the URL */}
       <ProjectsGrid projects={projects} handleImageClick={handleImageClick} />
       {selectedImage && (
         <Modal
