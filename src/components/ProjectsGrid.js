@@ -12,14 +12,14 @@ const ProjectCard = ({ project, handleImageClick }) => {
 
   return (
     <div
-      className={`group relative bg-gray-900/70 border border-gray-700 rounded-lg shadow-lg overflow-hidden transform transition hover:scale-105 hover:shadow-xl flex flex-col cursor-pointer`}
+      className={`group relative bg-gray-800 border border-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl flex flex-col cursor-pointer`}
       onClick={() => handleImageClick(project)}
     >
       <div className="p-4 h-64 sm:h-72 md:h-80 lg:h-96 flex items-center justify-center">
         <img
           src={project.imageUrl}
           alt={project.title}
-          loading="lazy" // Lazy load images
+          loading="lazy"
           className="max-w-full max-h-full object-contain transition-opacity duration-300 group-hover:opacity-80 rounded-lg shadow-md"
         />
       </div>
@@ -27,7 +27,7 @@ const ProjectCard = ({ project, handleImageClick }) => {
         <h3 className="text-lg sm:text-xl font-bold text-white mb-2">{project.title}</h3>
         
         <div
-          className={`text-sm sm:text-base text-gray-400 transition-all duration-300 ${
+          className={`text-sm sm:text-base text-gray-300 transition-all duration-300 ${
             isExpanded ? 'max-h-full' : 'max-h-12 overflow-hidden'
           }`}
         >
@@ -37,8 +37,8 @@ const ProjectCard = ({ project, handleImageClick }) => {
         {isLongDescription && (
           <button
             onClick={toggleExpand}
-            aria-expanded={isExpanded} // Accessibility improvement
-            className="text-blue-300 mt-2 text-sm self-start rounded-full border border-blue-500 px-3 py-1"
+            aria-expanded={isExpanded}
+            className="text-blue-400 mt-2 text-sm self-start rounded-full border border-blue-500 px-3 py-1 hover:bg-blue-500 hover:text-white transition-colors duration-300"
           >
             {isExpanded ? 'Show less' : 'Read more'}
           </button>
@@ -75,13 +75,13 @@ const ProjectsGrid = ({ projects, handleImageClick }) => {
               <p className="text-sm text-gray-400 mt-1">Join our community for updates and more!</p>
             </div>
             <div className="flex space-x-4">
-              <a href="https://discord.gg/QSxYZtv99X" className="footer-link text-sm" target="_blank" rel="noopener noreferrer">
+              <a href="https://discord.gg/QSxYZtv99X" className="footer-link text-sm hover:text-blue-400 transition duration-200" target="_blank" rel="noopener noreferrer">
                 Discord
               </a>
-              <a href="https://mcmodels.net" className="footer-link text-sm" target="_blank" rel="noopener noreferrer">
+              <a href="https://mcmodels.net" className="footer-link text-sm hover:text-blue-400 transition duration-200" target="_blank" rel="noopener noreferrer">
                 McModel
               </a>
-              <a href="https://www.facebook.com/pratarokub" className="footer-link text-sm" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/pratarokub" className="footer-link text-sm hover:text-blue-400 transition duration-200" target="_blank" rel="noopener noreferrer">
                 Facebook
               </a>
             </div>
